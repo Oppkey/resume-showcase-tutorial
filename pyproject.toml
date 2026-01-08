@@ -1,0 +1,11 @@
+[project]
+name = "resume-showcase"
+version = "0.1.0"
+description = "Showcase of Jesse Casman experience as example for internship interviews"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet==0.80.1",
+]
+[project.optional-dependencies]
+dev = ["flet-cli==0.80.1", "flet-desktop==0.80.1"]
